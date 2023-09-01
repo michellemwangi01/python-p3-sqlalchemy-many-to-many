@@ -26,7 +26,7 @@ if __name__ == '__main__':
         'playstation 5', 'xbox', 'xbox 360', 'xbox one', 'pc']
 
     games = []
-    for i in range(50):
+    for i in range(10):
         game = Game(
             title=fake.unique.name(),
             genre=random.choice(genres),
@@ -42,7 +42,7 @@ if __name__ == '__main__':
 
 
     users = []
-    for i in range(25):
+    for i in range(5):
         user = User(
             name=fake.name(),
         )
